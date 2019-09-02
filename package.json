@@ -1,0 +1,38 @@
+{
+  "name": "api-auth",
+  "version": "1.0.0",
+  "description": "Nodejs API Auth with JWT",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon .",
+    "build": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leelaing/node-api-auth-jwt.git"
+  },
+  "keywords": [
+    "node",
+    "api",
+    "auth",
+    "jwt"
+  ],
+  "author": "Lee Laing <big2tiny@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leelaing/node-api-auth-jwt/issues"
+  },
+  "homepage": "https://github.com/leelaing/node-api-auth-jwt#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "cors": "^2.8.5"
+  },
+  "dependencies": {
+    "@hapi/joi": "^15.1.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.7"
+  }
+}
