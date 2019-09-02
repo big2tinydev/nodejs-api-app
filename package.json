@@ -7,10 +7,6 @@
     "dev": "nodemon .",
     "build": "node ."
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/leelaing/node-api-auth-jwt.git"
-  },
   "keywords": [
     "node",
     "api",
@@ -19,10 +15,6 @@
   ],
   "author": "Lee Laing <big2tiny@gmail.com>",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/leelaing/node-api-auth-jwt/issues"
-  },
-  "homepage": "https://github.com/leelaing/node-api-auth-jwt#readme",
   "devDependencies": {
     "nodemon": "^1.19.1",
     "cors": "^2.8.5"
